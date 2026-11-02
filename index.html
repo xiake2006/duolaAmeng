@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多啦A梦 · 哆啦A梦的奇妙世界</title>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-dora">🐱</span>
+                <span class="logo-text">多啦A梦</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">角色介绍</a></li>
+                <li><a href="#gadgets" class="nav-link">神奇道具</a></li>
+                <li><a href="#stories" class="nav-link">经典故事</a></li>
+                <li><a href="#movies" class="nav-link">剧场版</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="sky-bg"></div>
+        <div class="clouds">
+            <div class="cloud cloud-1">☁️</div>
+            <div class="cloud cloud-2">☁️</div>
+            <div class="cloud cloud-3">☁️</div>
+            <div class="cloud cloud-4">☁️</div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-dora">
+                <img class="hero-dora-img" src="images/哆啦a梦头像.jpg" alt="哆啦A梦的头像" width="210" height="210">
+            </div>
+            <h1 class="hero-title">多啦A梦</h1>
+            <p class="hero-subtitle">陪伴我们童年的蓝胖子 · 梦想从这里出发</p>
+            <p class="hero-desc">来自未来世界的猫型机器人，用神奇的口袋，为大雄和我们带来无数欢乐与感动。</p>
+            <div class="hero-btns">
+                <a href="#about" class="btn btn-primary">认识他 →</a>
+                <a href="#gadgets" class="btn btn-outline">看看道具</a>
+            </div>
+        </div>
+        <div class="hero-indicator">↓ 向下探索</div>
+    </section>
+
+    <section class="section section-wave" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🎭 角色介绍</h2>
+                <p class="section-sub">那些陪伴大雄和我们一起成长的朋友们</p>
+            </div>
+            <div class="character-grid" id="characterGrid"></div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="gadgets">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🔮 神奇道具</h2>
+                <p class="section-sub">多啦A梦的四次元口袋里藏着无数惊喜</p>
+            </div>
+            <div class="gadgets-grid" id="gadgetsGrid"></div>
+        </div>
+    </section>
+
+    <section class="section" id="stories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📖 经典故事</h2>
+                <p class="section-sub">那些年让我们笑过、哭过、感动过的篇章</p>
+            </div>
+            <div class="stories-timeline" id="storiesTimeline"></div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="movies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">� 剧场版电影</h2>
+                <p class="section-sub">每一年的夏天，多啦A梦都会带我们去冒险</p>
+            </div>
+            <div class="movies-grid" id="moviesGrid"></div>
+        </div>
+    </section>
+
+    <section class="section section-facts" id="facts">
+        <div class="container">
+            <div class="facts-wrap">
+                <div class="facts-card">
+                    <div class="facts-emoji">🎂</div>
+                    <h3>生日</h3>
+                    <p>2112年9月3日</p>
+                </div>
+                <div class="facts-card">
+                    <div class="facts-emoji">📏</div>
+                    <h3>身高</h3>
+                    <p>129.3 cm</p>
+                </div>
+                <div class="facts-card">
+                    <div class="facts-emoji">⚖️</div>
+                    <h3>体重</h3>
+                    <p>129.3 kg</p>
+                </div>
+                <div class="facts-card">
+                    <div class="facts-emoji">❤️</div>
+                    <h3>最爱</h3>
+                    <p>铜锣烧</p>
+                </div>
+                <div class="facts-card">
+                    <div class="facts-emoji">😱</div>
+                    <h3>最怕</h3>
+                    <p>老鼠</p>
+                </div>
+                <div class="facts-card">
+                    <div class="facts-emoji">💨</div>
+                    <h3>速度</h3>
+                    <p>129.3 km/h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-character">
+                <div class="mini-dora">
+                    <div class="mini-face">
+                        <div class="mini-eye l"></div>
+                        <div class="mini-eye r"></div>
+                        <div class="mini-nose"></div>
+                        <div class="mini-smile"></div>
+                    </div>
+                </div>
+                <p>"如果我没有多啦A梦，我该怎么办啊！"</p>
+                <span>—— 野比大雄</span>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 多啦A梦爱好者站 · 致敬藤子·F·不二雄先生 · Made with 💙</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top" id="backToTop">↑</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
